@@ -5,3 +5,4 @@ download
 - light
 - pulsemixer
 - lxappearance
+- lxsession
