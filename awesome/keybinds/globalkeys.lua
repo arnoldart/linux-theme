@@ -97,7 +97,7 @@ function _M.get()
     ),
 
     awful.key({ modkey, }, "d",
-        function () awful.spawn.with_shell(launcher .. "drun") end,
+        function () awful.spawn.with_shell("rofi -show drun") end,
         {description = "open app launcher", group = "launcher"}
     ),
 
@@ -155,7 +155,7 @@ function _M.get()
               -- {description = "show the menubar", group = "launcher"}),
 
     -- Screenshot
-    awful.key({ modkey }, "p", function() awful.spawn.with_shell("flameshot gui -p ~/ss/") end,
+    awful.key({ modkey }, "p", function() awful.spawn.with_shell("flameshot gui") end,
               {description = "screenshot edited", group = "misc"}),
     awful.key({ }, "Print", function() awful.spawn.with_shell("flameshot gui -p ~/ss/") end,
                {description = "screenshot no edit", group = "misc"})

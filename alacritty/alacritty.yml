@@ -100,7 +100,7 @@ font:
     #   - (macOS) Menlo
     #   - (Linux/BSD) monospace
     #   - (Windows) Consolas
-    family: CodeNewRoman Nerd Font
+    family: Iosevka
 
     # The `style` can be specified to pick a specific face.
     style: Regular
@@ -263,13 +263,13 @@ font:
 #   # Default colors
 #   primary:
 #     # hard contrast: background = '#1d2021'
-#     background: '0x1A1A1A'
+#     background: '0x1b182c'
 #     # soft contrast: background = '#32302f'
 #     foreground: '0xcbe3e7'
 
 #   cursor:
 #     text: '#000000'
-#     cursor: '#FFCB6B'
+#     cursor: '#FFFAEE'
 
 #   # Normal colors
 #   normal:
@@ -292,6 +292,7 @@ font:
 #     magenta: '0x906cff'
 #     cyan:    '0x63f2f1'
 #     white:   '0xa6b3cc'
+
 
 schemes:  
 

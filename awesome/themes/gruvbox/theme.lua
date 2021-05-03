@@ -7,7 +7,7 @@ dofile(theme_path .. "colours.lua")
 dofile(theme_path .. "elements.lua")
 dofile(theme_path .. "layouts.lua")
 
-theme.wallpaper     = os.getenv("HOME") .. ".config/awesome/themes/gruvbox/icons/node.jpg"
+theme.wallpaper     = os.getenv("HOME") .. "/.config/awesome/themes/gruvbox/wallpaper/vivywp.png"
 theme.awesome_icon  = theme_path .. "icons/s.png"
 theme.icon_theme    = "Numix"
 
